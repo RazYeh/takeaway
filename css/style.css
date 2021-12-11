@@ -38,7 +38,7 @@ button:hover {
 
 .fav-btn-on {
     margin-left: -17px;
-    background-image: url("https://github.com/RazYeh/takeaway/img/fav-btn.png");
+    background-image: url("/img/fav-btn.png");
     filter: opacity(0.5) drop-shadow(0 0 0 rgb(255, 238, 0)) saturate(1000%);
 }
 
