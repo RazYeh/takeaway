@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Raz's sample</title>
+		<link rel="stylesheet" href="/css/style.css" />
+	</head>
+	<body>
+		<header>
+			<h2>Order takeaway</h2>
+			<img src="img/header2.png" />
+		</header>
+
+		<div class="menu">
+			<div class="sushi">
+				<p class="sushi-categories">
+					Categories:<br />
+					<span>Asian</span>
+					<span>Spicy</span>
+				</p>
+
+				<img src="img/king-prawn-nigiri.png" />
+				<img src="img/spicy-tempeh-crunch-roll.png" />
+				<img src="img/sushi-rolls.png" />
+
+				<div class="sushi-main">
+					<h4 class="sushi-title">Sushi<br /></h4>
+
+					<p class="sushi-dishes">
+						King Prawn Nigiri<br />
+						Spicy Tempeh Crunch Roll<br />
+						Sushi rolls
+					</p>
+
+					<button class="share-btnn" onclick="shareDish()"></button>
+					<button class="fav-btn" onclick="favDish(this)"></button>
+					<button class="del-btn" onclick="deleteDish(this)"></button>
+				</div>
+			</div>
+
+			<div class="pizza">
+				<p class="pizza-categories">
+					Categories:<br />
+					<span>Vegan</span>
+					<span>Meat</span>
+				</p>
+
+				<img src="img/bruschetta-pizza.jpeg" />
+				<img src="img/pizza-damper.jpg" />
+				<img src="img/pizza-pasta.jpeg" />
+
+				<div class="pizza-main">
+					<h4 class="pizza-title">Pizza<br /></h4>
+
+					<p class="pizza-dishes">
+						Bruschetta Pizza<br />
+						Damper Pizza<br />
+						Pasta Pizza
+					</p>
+
+					<button class="share-btnn" onclick="shareDish()"></button>
+					<button class="fav-btn" onclick="favDish(this)"></button>
+					<button class="del-btn" onclick="deleteDish(this)"></button>
+				</div>
+			</div>
+
+			<div class="burger">
+				<p class="burger-categories">
+					Categories:<br />
+					<span>Kosher</span>
+					<span>Non-kosher</span>
+				</p>
+
+				<img src="img/egg-burger.jpg" />
+				<img src="img/turkey-burger.jpg" />
+				<img src="img/fried-onions-burger.jpg" />
+
+				<div class="burger-main">
+					<h4 class="burger-title">Burger<br /></h4>
+
+					<p class="burger-dishes">
+						Burger with egg<br />
+						Burger with turkey<br />
+						Burger with fried onions
+					</p>
+
+					<button class="share-btnn" onclick="shareDish()"></button>
+					<button class="fav-btn" onclick="favDish(this)"></button>
+					<button class="del-btn" onclick="deleteDish(this)"></button>
+				</div>
+			</div>
+
+			<div class="share-modal">
+				<div class="share-modal-content">
+				  <span class="close-modal">&times;</span>
+				  <img class="social" src="/img/social.png">
+				</div>
+			</div>
+		</div>
+
+		<script src="js/main.js"></script>
+	</body>
+</html>
