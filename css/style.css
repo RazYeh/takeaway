@@ -28,23 +28,23 @@ button:hover {
 
 .share-btnn {
     margin-left: -65px;
-    background-image: url("/img/shr-btn.png");
+    background-image: url("img/shr-btn.png");
 }
 
 .fav-btn {
     margin-left: -17px;
-    background-image: url("/img/fav-btn.png");
+    background-image: url("img/fav-btn.png");
 }
 
 .fav-btn-on {
     margin-left: -17px;
-    background-image: url("/img/fav-btn.png");
+    background-image: url("img/fav-btn.png");
     filter: opacity(0.5) drop-shadow(0 0 0 rgb(255, 238, 0)) saturate(1000%);
 }
 
 .del-btn {
     margin-left: 31px;
-    background-image: url("/img/del-btn.png");
+    background-image: url("img/del-btn.png");
 }
 
 .sushi {
